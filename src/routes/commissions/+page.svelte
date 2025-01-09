@@ -2,7 +2,7 @@
     let status = "CLOSED";
 </script>
 
-<div class="min-h-screen flex flex-col items-center w-5/12 mx-auto">
+<div class="min-h-screen flex flex-col items-center sm:w-5/12 w-11/12 sm:mx-auto mx-8">
     <h1 class="text-4xl font-bold mt-36">Commission Info</h1>
 
     <h2 class="text-3xl mt-8">Commission Status: {status}</h2>
