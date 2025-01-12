@@ -18,6 +18,7 @@
 
 <!-- Footer -->
 <footer class="text-center py-4 mt-4 bg-black bg-opacity-20">
-  	© 2025 Jellis
+  	© 2025 Jellis. 
+	<span class="text-[#e6d5d37a]">Last edited: January 12th 2025</span>
 	<!-- add about this website? -->
 </footer>

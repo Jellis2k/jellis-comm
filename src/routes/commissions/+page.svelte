@@ -2,10 +2,13 @@
     let status = "CLOSED";
 </script>
 
-<div class="min-h-screen flex flex-col items-center sm:w-5/12 w-11/12 sm:mx-auto mx-8">
+<div class="min-h-screen flex flex-col items-center sm:w-7/12 w-11/12 sm:mx-auto mx-8">
     <h1 class="text-4xl font-bold mt-36">Commission Info</h1>
+    <a class="" href="#contact">[Skip to Contact Info]</a>
 
-    <h2 class="text-3xl mt-8">Commission Status: {status}</h2>
+    <h2 class="text-3xl mt-8"> Status: 
+        <strong class="{status === 'CLOSED' ? 'text-red-500' : 'text-green-500'}">{status}</strong>
+    </h2>
 
     <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
 
@@ -20,8 +23,8 @@
         <li>Please refrain from asking me to mimic another artist's style.</li>
         <li>I can only work create simple backgrounds; refer to my previous works as reference.</li>
         <li>Once payment is made and a draft/sketch is approved, the process may take 1-3 weeks to complete. however, this duration may vary based on the specifics of your request.</li>
-        <li>Upon completion, you will receive the final artwork in PNG format along with the original CLIP or PSD file.</li>
-        <li>By submitting a request you confirm that you have read and agree to the Terms and Service above.</li>
+        <li>Upon completion, you will receive the final artwork in PNG format. Optionally you can request for the CSP file as well.</li>
+        <li><strong>By submitting a request you confirm that you have read and agree to the Terms and Service above.</strong></li>
     </ul>
 
     <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
@@ -77,34 +80,56 @@
 
     <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
 
-    <p class="text-2xl">10% off</p>
-    <p class="text-2xl">If you commission me to draw one of my oshis</p>
-    <p>(This isn't a joke and I'm not saying who they are.)</p>
+    <div class="text-center">
+        <p class="text-2xl">10% off</p>
+        <p class="text-2xl">If commissioned to draw one of my oshis</p>
+        <p>(This isn't a joke and I'm not saying who they are.)</p>
+    </div>
+    
 
     <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
 
     <!-- Request Form -->
-    <h2 class="text-3xl">REQUEST FORM</h2>
-    <ul class="text-lg">
-        <li><strong>About You:</strong> give your username or twitter handle, and means of communication.</li>
-        <li><strong>Paypal Email:</strong></li>
-        <li><strong>Commission Type:</strong> negotiable</li>
-        <li><strong>Character Details:</strong> name, image references.</li>
-        <li><strong>(optional) Additional Details:</strong> outfit references, pose references, facial expressions, other details (references help a lot).</li>
+    <div>
+        <h2 class="text-3xl text-center">REQUEST FORM</h2>
+        <p class="mb-4">A general guideline of what to provide when requesting</p>
+        <ul class="text-lg mb-4">
+            <li><strong>About You:</strong> give your username or twitter handle, and means of communication.</li>
+            <li><strong>Commission Type:</strong> negotiable</li>
+            <li><strong>Character Details:</strong> name, image references.</li>
+            <li><strong>(optional) Additional Details:</strong> outfit references, pose references, facial expressions, other details (these help a lot).</li>
+        </ul>
+    </div>
+
+    <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
+
+    <h2 class="text-3xl">PROCESS</h2>
+    <ul class="list-disc text-lg">
+        <li>Receive message/email with your request.</li>
+        <li>Discuss any details/questions before finalizing.</li>
+        <li>Customer pays 50% of total price before I begin the work.</li>
+        <li>Any progress pictures can be sent on request.</li>
+        <li>Once artwork is completed I'll ask for the remaining 50% of payment.</li>
+        <li>I will send the file to you, and upload to X/Twitter with your name (unless prohibited beforehand).</li>
+        <li>Done!</li>
     </ul>
 
     <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
 
-    <h2 class="text-3xl">CONTACT</h2>
-    <h3 class="text-xl my-2">
-        <strong class="text-[#fc6e83;]">X / Twitter: </strong>
-        <a href="https://x.com/Jellis2k" class="underline">@Jellis2k</a>
-    </h3>
-    <h3 class="text-xl my-2">
-        <strong class="text-[#fc6e83;]">Email: </strong>
-        <a href="https://x.com/Jellis2k" class="">jellisvt.official@gmail.com</a>
-    </h3>
-    <p class="my-2">Feel free to contact through Twitter/X DMs or Email for questions.</p>
+    <!-- Contact -->
+    <div class="text-center my-16">
+        <h2 class="text-3xl" id="contact">CONTACT INFO</h2>
+        <h3 class="text-xl my-2">
+            <strong class="text-[#fc6e83;]">X / Twitter: </strong>
+            <a href="https://x.com/Jellis2k" class="underline">@Jellis2k</a>
+        </h3>
+
+        <h3 class="text-xl my-2">
+            <strong class="text-[#fc6e83;]">Email: </strong>
+            <a href="https://x.com/Jellis2k" class="">jellisvt.official@gmail.com</a>
+        </h3>
+        <p class="my-6">Don't hesitate to contact through (preferably) X/Twitter DMs, or Email for questions. Clear communication helps!</p>
+    </div>
 
 </div> 
 <!-- End of content -->
