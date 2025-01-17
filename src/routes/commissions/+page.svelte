@@ -23,6 +23,7 @@
         <li>I can only work create simple backgrounds; refer to my previous works as reference.</li>
         <li>Once payment is made and a draft/sketch is approved, the process may take 1-3 weeks to complete (maximum) however, this duration may vary based on the complexity of your request.</li>
         <li>Small revisions are allowed during the sketch phase for free. Complex revisions require a small fee.</li>
+        <li>Absolutely DO NOT use my artwork to train any AI models.</li>
         <li class="mt-4"><strong>By submitting a request you confirm that you have read and agree to the Terms and Service above.</strong></li>
     </ul>
 
