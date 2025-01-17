@@ -1,6 +1,9 @@
 <script lang="ts">
 	import '../app.css';
 	let { children } = $props();
+
+	let date = "January 17th 2025";
+	// January 12th 2025
 </script>
 
 <!-- Navigation -->
@@ -19,6 +22,6 @@
 <!-- Footer -->
 <footer class="text-center py-4 mt-4 bg-black bg-opacity-20">
   	© 2025 Jellis. 
-	<span class="text-[#e6d5d37a]">Last edited: January 12th 2025</span>
+	<span class="text-[#e6d5d37a]">Last edited: {date}</span>
 	<!-- add about this website? -->
 </footer>
