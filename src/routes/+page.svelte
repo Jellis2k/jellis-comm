@@ -1,7 +1,7 @@
 <script lang="ts">
     let twitter = "https://x.com/Jellis2k";
     let pixiv = "https://www.pixiv.net/en/users/108093889";
-    let kofi = "https://ko-fi.com/jellis";
+    let kofi = "https://ko-fi.com/jellis2k";
     let maro = "https://marshmallow-qa.com/xxws6dpj26vgfdn";
     let jellis2k = "https://x.com/search?q=%23jellis2k&src=hashtag_click&f=live";
     let pfp = 'https://pbs.twimg.com/profile_images/1863856708210089984/47CBcSQy_400x400.jpg';
