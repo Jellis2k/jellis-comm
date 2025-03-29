@@ -6,16 +6,16 @@
     <h1 class="text-4xl font-bold mt-36">Commission Info</h1>
     <a class="" href="#contact">[Skip to Contact Info]</a>
 
-    <h2 class="text-3xl mt-8"> Status: 
+    <!-- <h2 class="text-3xl mt-8"> Status: 
         <strong class="{status === 'CLOSED' ? 'text-red-500' : 'text-green-500'}">{status}</strong>
-    </h2>
+    </h2> -->
 
     <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
 
     <!-- TOS -->
-    <h2 class="text-3xl">TERMS OF SERVICE: (WIP)</h2>
+    <h2 class="text-3xl">TERMS OF SERVICE: </h2>
     <ul class="list-disc text-lg">
-        <li>Payment is only in USD. No refunds can be issused.</li>
+        <li>Payment is only in USD. No refunds can be issused unless I need to cancel the request myself.</li>
         <li>All commissions are for personal use only. You may not profit from or use the commissioned artwork commercially unless explicitly discussed and agreed upon beforehand.</li>
         <li>Commissions are not handled first-come, first-served basis. I will choose the project to work on after reviewing all submitted requests.</li>
         <li>If you share or use the artwork anywhere, ensure credit to me as the artist is visible (e.g., "Art by @Jellis2k", ambiguous: "Jellis").</li>
@@ -32,7 +32,7 @@
         <div class="flex flex-col w-1/2">
             <h2 class="text-3xl">Will Do:</h2>
             <ul class="text-lg">
-                <li>Anime Girls!!! Character Fanart, Kemonomimi, Food, Slightly Suggestive</li>
+                <li>Anime Girls!!! Character Fanart, Kemonomimi, Food, Suggestive (tasteful)</li>
             </ul>
         </div>
 
@@ -48,31 +48,31 @@
     <h2 class="text-3xl mt-8" id="process">PROCESS</h2>
     <ul class="list-disc text-lg">
         <li>Submit your request via message/email.</li>
-        <li>Discuss any details/questions and finalize terms.</li>
+        <li>Discuss any details/questions and finalize terms (such as the 50/50 payment process)</li>
         <li>Pay 50% upfront to begin work.</li>
         <li>Sketch piece is provided for review. Progress updates available on request. </li>
         <li>Once artwork is completed I'll ask for the remaining 50% of payment.</li>
-        <li>Receive the final file. I may upload it to X/Twitter unless requested not to beforehand.</li>
+        <li>Receive the final file. I may upload it to X/Twitter/Pixiv unless requested not to beforehand.</li>
     </ul>
 
-    <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
+    <!-- <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
 
     <h2 class="text-3xl">COMMISSION TYPES: (WIP)</h2>
     <ul class="text-lg">
         <li>This isn't final yet. I'm just adding these for space.</li>
         <li>Background is $10-$30 depending on complexity</li>
-    </ul>
+    </ul> -->
     
     <!-- Bust up -->
-    <h3 class="text-2xl text-center mt-4">Bust Up: $69</h3>
+    <!-- <h3 class="text-2xl text-center mt-4">Bust Up: $69</h3>
     <img src="https://pbs.twimg.com/media/GgQTLVHXMAANF75?format=jpg" 
         alt="Raki New Years in Kimono" class="w-10/12 h-auto p-2"/>
     <img src="https://pbs.twimg.com/media/GcJjIL_WwAAB2ee?format=jpg" 
-        alt="Raki's Pocky Day (Shoujo)" class="w-6/12 h-auto p-2"/>
+        alt="Raki's Pocky Day (Shoujo)" class="w-6/12 h-auto p-2"/> -->
 
 
     <!-- Full body -->
-    <h3 class="text-2xl text-center mt-4">Full Body: $420</h3>
+    <!-- <h3 class="text-2xl text-center mt-4">Full Body: $420</h3>
     <div class="flex justify-between w-full">
         <img 
             src="https://pbs.twimg.com/media/GdxKjJJXIAATqGr?format=jpg" 
@@ -84,15 +84,15 @@
             alt="Ayu 2.0 Debut Art" 
             class="w-1/2 p-2"
         />
-    </div>
+    </div> -->
 
-    <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
+    <!-- <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
 
     <div class="text-center">
         <p class="text-2xl">10% off</p>
         <p class="text-2xl">If commissioned to draw one of my oshis</p>
         <p>(This isn't a joke and I'm not saying who they are.)</p>
-    </div>
+    </div> -->
     
 
     <hr class="border-t-8 border-[#332e38] w-full mt-8 mb-8" />
@@ -102,9 +102,8 @@
         <h2 class="text-3xl text-center">REQUEST FORM</h2>
         <p class="mb-4">A general guideline of what to provide when requesting:</p>
         <ul class="text-lg mb-4">
-            <li><strong>About You:</strong> Your username or X/Twitter handle.</li>
-            <li><strong>Commission Type:</strong> Negotiable</li>
-            <li><strong>Character Details:</strong> Name, image references.</li>
+            <li><strong>About You:</strong> Your username or X/Twitter handle and means of communicating.</li>
+            <li><strong>Commission Details:</strong> </li>
             <li><strong>(optional) Additional Details:</strong> Outfit references, pose references, facial expressions, other (these help a lot).</li>
         </ul>
     </div>
@@ -121,7 +120,7 @@
 
         <h3 class="text-xl my-2">
             <strong class="text-[#fc6e83;]">Email: </strong>
-            <a href="https://x.com/Jellis2k" class="">jellisvt.official@gmail.com</a>
+            <a href="mailto:jellisvt.official@gmail.com" class="underline">jellisvt.official@gmail.com</a>
         </h3>
         <p class="my-6">Don't hesitate to contact through (preferably) X/Twitter DMs, or Email for questions. Clear communication helps!</p>
     </div>

@@ -2,8 +2,9 @@
 	import '../app.css';
 	let { children } = $props();
 
-	let date = "January 17th 2025";
+	let date = "March 29th 2025";
 	// January 12th 2025
+	// January 17th 2025
 </script>
 
 <!-- Navigation -->
