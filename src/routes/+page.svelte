@@ -3,6 +3,7 @@
     let pixiv = "https://www.pixiv.net/en/users/108093889";
     let kofi = "https://ko-fi.com/jellis2k";
     let maro = "https://marshmallow-qa.com/xxws6dpj26vgfdn";
+    let vgen = "https://vgen.co/Jellis2k";
     let jellis2k = "https://x.com/search?q=%23jellis2k&src=hashtag_click&f=live";
     let pfp = 'https://pbs.twimg.com/profile_images/1894879773819641856/IwTjxTOJ_400x400.jpg';
 
@@ -36,6 +37,10 @@
             <a href={twitter} target="_blank" class="text-xl p-4 m-2 rounded-xl bg-dark flex items-center transition-colors duration-50 hover:bg-[#e6d5d3] hover:text-[#332e38]">
                 X / Twitter
                 <img src={`https://www.google.com/s2/favicons?domain=${new URL(twitter).hostname}&sz=32`} alt="X/Twitter Icon" class="ml-auto w-5 h-5"/>
+            </a>
+            <a href={vgen} target="_blank" class="text-xl p-4 m-2 rounded-xl bg-dark flex items-center transition-colors duration-50 hover:bg-[#e6d5d3] hover:text-[#332e38]">
+                VGen
+                <img src={`https://www.google.com/s2/favicons?domain=${new URL(vgen).hostname}&sz=32`} alt="VGen Icon" class="ml-auto w-5 h-5"/>
             </a>
             <a href={pixiv} target="_blank" class="text-xl p-4 m-2 rounded-xl bg-dark flex items-center transition-colors duration-50 hover:bg-[#e6d5d3] hover:text-[#332e38]">
                 Pixiv
