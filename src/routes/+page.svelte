@@ -5,7 +5,7 @@
     let maro = "https://marshmallow-qa.com/xxws6dpj26vgfdn";
     let vgen = "https://vgen.co/Jellis";
     // let jellis2k = "https://x.com/search?q=%23jellis2k&src=hashtag_click&f=live";
-    let pfp = "/pfp.png";
+    let pfp = "/favicon.png";
 
     // let clipboard = "Jellis' Socials:\n" +
     // "Twitter/X: " + twitter + "\n" +
