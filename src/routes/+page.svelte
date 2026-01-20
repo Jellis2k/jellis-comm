@@ -1,11 +1,11 @@
 <script lang="ts">
-    let twitter = "https://x.com/Jellis2k";
+    let twitter = "https://x.com/Jellismk2";
     let pixiv = "https://www.pixiv.net/en/users/108093889";
-    let kofi = "https://ko-fi.com/jellis2k";
+    let kofi = "https://ko-fi.com/jellis";
     let maro = "https://marshmallow-qa.com/xxws6dpj26vgfdn";
-    let vgen = "https://vgen.co/Jellis2k";
-    let jellis2k = "https://x.com/search?q=%23jellis2k&src=hashtag_click&f=live";
-    let pfp = 'https://pbs.twimg.com/profile_images/1894879773819641856/IwTjxTOJ_400x400.jpg';
+    let vgen = "https://vgen.co/Jellis";
+    // let jellis2k = "https://x.com/search?q=%23jellis2k&src=hashtag_click&f=live";
+    let pfp = "/pfp.png";
 
     // let clipboard = "Jellis' Socials:\n" +
     // "Twitter/X: " + twitter + "\n" +
@@ -38,10 +38,6 @@
                 X / Twitter
                 <img src={`https://www.google.com/s2/favicons?domain=${new URL(twitter).hostname}&sz=32`} alt="X/Twitter Icon" class="ml-auto w-5 h-5"/>
             </a>
-            <a href={vgen} target="_blank" class="text-xl p-4 m-2 rounded-xl bg-dark flex items-center transition-colors duration-50 hover:bg-[#e6d5d3] hover:text-[#332e38]">
-                VGen
-                <img src={`https://www.google.com/s2/favicons?domain=${new URL(vgen).hostname}&sz=32`} alt="VGen Icon" class="ml-auto w-5 h-5"/>
-            </a>
             <a href={pixiv} target="_blank" class="text-xl p-4 m-2 rounded-xl bg-dark flex items-center transition-colors duration-50 hover:bg-[#e6d5d3] hover:text-[#332e38]">
                 Pixiv
                 <img src={`https://www.google.com/s2/favicons?domain=${new URL(pixiv).hostname}&sz=32`} alt="Pixiv Icon" class="ml-auto w-5 h-5"/>
@@ -54,14 +50,21 @@
                 Marshmallow
                 <img src={`https://www.google.com/s2/favicons?domain=${new URL(maro).hostname}&sz=32`} alt="Pixiv Icon" class="ml-auto w-5 h-5"/>
             </a>
+            <a href={vgen} target="_blank" class="text-xl p-4 m-2 rounded-xl bg-dark flex items-center transition-colors duration-50 hover:bg-[#e6d5d3] hover:text-[#332e38]">
+                VGen (Closed)
+                <img src={`https://www.google.com/s2/favicons?domain=${new URL(vgen).hostname}&sz=32`} alt="VGen Icon" class="ml-auto w-5 h-5"/>
+            </a>
         </div>
     </div>
 
 
-    <p class="text-center">
-        Monthly art & doodles → 
+    <p class="text-center w-96">
+        If you use my artwork online <em>(e.g., YouTube, X)</em>, <strong>please</strong> consult/credit me. 
+        <br/><br/>
+        <strong>Email</strong>: <u>jellis.contact@gmail.com</u>
+        <!-- Monthly art & doodles → 
         <a href={jellis2k} target="_blank" class="font-bold">
             #jellis2k
-        </a>
+        </a> -->
     </p>
 </div>
