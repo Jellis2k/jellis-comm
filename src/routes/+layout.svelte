@@ -2,11 +2,12 @@
 	import '../app.css';
 	let { children } = $props();
 
-	let date = "January 20th 2026";
+	let date = "January 21st 2026";
 	// January 12th 2025
 	// January 17th 2025
 	// March 29th 2025
 	// June 30th 2025
+	// January 20th 2026
 	
 </script>
 

@@ -4,6 +4,7 @@
     let kofi = "https://ko-fi.com/jellis";
     let maro = "https://marshmallow-qa.com/xxws6dpj26vgfdn";
     let vgen = "https://vgen.co/Jellis";
+    let youtube = "https://www.youtube.com/@Jellis2k";
     // let jellis2k = "https://x.com/search?q=%23jellis2k&src=hashtag_click&f=live";
     let pfp = "/favicon.png";
 
@@ -42,6 +43,10 @@
                 Pixiv
                 <img src={`https://www.google.com/s2/favicons?domain=${new URL(pixiv).hostname}&sz=32`} alt="Pixiv Icon" class="ml-auto w-5 h-5"/>
             </a>
+            <a href={youtube} target="_blank" class="text-xl p-4 m-2 rounded-xl bg-dark flex items-center transition-colors duration-50 hover:bg-[#e6d5d3] hover:text-[#332e38]">
+                YouTube <span class="text-sm ml-2 bg">(Videos/Stream?)</span>
+                <img src={`https://www.google.com/s2/favicons?domain=${new URL(youtube).hostname}&sz=32`} alt="Pixiv Icon" class="ml-auto w-5 h-5"/>
+            </a>
             <a href={kofi} target="_blank" class="text-xl p-4 m-2 rounded-xl bg-dark flex items-center transition-colors duration-50 hover:bg-[#e6d5d3] hover:text-[#332e38]">
                 Ko-fi
                 <img src={`https://www.google.com/s2/favicons?domain=${new URL(kofi).hostname}&sz=32`} alt="Pixiv Icon" class="ml-auto w-5 h-5"/>
@@ -51,7 +56,7 @@
                 <img src={`https://www.google.com/s2/favicons?domain=${new URL(maro).hostname}&sz=32`} alt="Pixiv Icon" class="ml-auto w-5 h-5"/>
             </a>
             <a href={vgen} target="_blank" class="text-xl p-4 m-2 rounded-xl bg-dark flex items-center transition-colors duration-50 hover:bg-[#e6d5d3] hover:text-[#332e38]">
-                VGen (Closed)
+                VGen <span class="text-sm ml-2 bg">(Closed Indefinitely)</span>
                 <img src={`https://www.google.com/s2/favicons?domain=${new URL(vgen).hostname}&sz=32`} alt="VGen Icon" class="ml-auto w-5 h-5"/>
             </a>
         </div>
